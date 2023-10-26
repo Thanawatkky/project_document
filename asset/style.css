@@ -1,0 +1,33 @@
+body,html {
+    font-family: 'Courier New', Courier, monospace;
+}
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background-color: lightblue;
+    top: 0;
+    left: 0;
+}
+
+.sidebar div {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.white-box {
+    background-color: rgb(205, 205, 205);
+    width: 200px;
+    height: 100px;
+    display: grid;
+    margin-top: 10px;
+}
+
+.white-box h4 {
+    margin-top: 20px;
+}
